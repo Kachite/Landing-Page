@@ -14,6 +14,7 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  flex: 1;
 }
 .main-header {
   font-size: 24px;
@@ -61,27 +62,111 @@ a {
   flex-direction: row;
   flex-wrap: wrap;
   gap: 8px;
-  justify-content: space-between
+  justify-content: space-between;
+  padding-top: 60px;
 }
 button {
   background-color: #3882f6;
   text-align: center;
-  padding: 8px 16px;
+  padding: 5px 16px;
   color: white;
   display: inline-block;
   border: none;
   width: 100px;
-  border-radius: 8px;
+  border-radius: 5px;
   margin: 10px 0 10px 0;
 
 }
-
+/* Second section */
+.second-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  text-align: center;
+  margin-bottom: 50px;
+}
+.cards {
+  height: 100px;
+  width: 100px;
+  border: 2px solid #3882f6;
+  border-radius: 8px;
+}
+.text {
+  max-width: 100px;
+}
+.second-header {
+  font-size: 36px;
+  font-weight: 800;
+  text-align: center;
+  padding: 30px 0px;
+  
+}
 .footer {
-  height: 72px;
+  height: 52px;
   background: #1f2937;
   color: white;
   display: flex;
   align-items: center;
   justify-content: center;
   margin-top: auto;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+/* Third section */
+.quote {
+  font-size: 24px;
+  font-style: italic;
+  font-weight: 100;
+  padding: 30px 50px 0px 50px;
+  text-align: center;
+  color: #1f2937;
+  
+}
+.writer {
+padding-top: 30px;
+font-weight: 600;
+display: flex;
+justify-content: flex-end;
+padding-right: 50px;
+}
+.testimonial {
+  background-color: #e5e7eb;
+  display: flex;
+  flex-direction: column;
+  padding: 70px;
+}
+/* Fourth section */
+.action {
+  padding: 30px 60px 30px 60px;
+  background-color: #3882f6;
+  color: #f9faf8;
+  border-radius: 5px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.action-container {
+  display: flex;
+  flex-direction: column;
+}
+.lower-button {
+  border: 1px solid;
+}
+.button-container {
+  display: flex;
+  justify-content: flex-end;
+
+}
+.call {
+  padding: 60px;
+}
+.action-description {
+  font-weight: 100;
+}
+.action-call {
+  font-weight: 600;
 }
